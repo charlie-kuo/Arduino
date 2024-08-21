@@ -1,0 +1,17 @@
+int ch1=2,ch2=3;
+
+void setup() {
+  pinMode(ch1, OUTPUT);  
+  pinMode(ch2, OUTPUT);  
+  digitalWrite(ch1,HIGH);
+  delay(10);
+  digitalWrite(ch2,HIGH);
+  delay(20);
+  digitalWrite(ch2,LOW);
+  delay(10);
+  digitalWrite(ch1,LOW);
+}
+
+void loop() {  
+
+};
